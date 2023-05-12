@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn-yellow {
+  padding: 17px 0 25px 0;
+  background: #f2b137;
+  box-shadow: inset 0px -8px 0px #cc8b13;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #1a2a33;
+  transition: all 0.3s;
+}
+.btn-yellow:hover {
+  background: #ffc860;
+}
+
+.btn-blue {
+  padding: 17px 0 25px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  color: #1a2a33;
+  background: #31c3bd;
+  box-shadow: inset 0px -8px 0px #118c87;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.btn-blue:hover {
+  background: #65e9e4;
+}
+.btn-secondary-gray {
+  background: #a8bfc9;
+  box-shadow: inset 0px -4px 0px #6b8997;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #1a2a33;
+  padding: 15px 16px;
+  transition: all 0.3s linear;
+}
+.btn-secondary-gray:hover {
+  background: #dbe8ed;
+  box-shadow: inset 0px -4px 0px #6b8997;
+}
