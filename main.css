@@ -11,6 +11,14 @@ body {
   max-width: 500px;
   margin: 0 auto;
 }
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(.9);
+}
 
 .btn-yellow {
   padding: 17px 0 25px 0;
@@ -60,4 +68,9 @@ body {
 .btn-secondary-gray:hover {
   background: #dbe8ed;
   box-shadow: inset 0px -4px 0px #6b8997;
+}
+.btn-yellow:hover,
+.btn-blue:hover,
+.btn-secondary-gray:hover {
+  transform: translateY(-5px);
 }
